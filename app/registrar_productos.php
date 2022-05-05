@@ -25,9 +25,9 @@ if (@!$_SESSION['usuario']) {
 </head>
 <body>
 	 <header class="header">
-			     <ul class="nav pull-right">
+			    <ul class="nav pull-right">
 			        Welcome <strong><?php echo $_SESSION['usuario'];?></strong>
-			      </ul>
+			    </ul>
 		     </header>
 
 	<h1>Registrar Producto</h1>

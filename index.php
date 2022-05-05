@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <title>Tienda</title>
         <meta charset="utf-8">
-        <!--<link href="css/style.css"  rel="stylesheet" type="text/css"/>-->
-          
+
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
@@ -14,16 +13,16 @@
     </head>
 
     <body>
-      <h2>Iniciar sesión</h2>
+        <h2>Iniciar sesión</h2>
         <div class="center">
             <table>
                 <form action="validar_usuario.php" method="post">                
                     <label>Correo:</label>
-                    <input class="login" type="correo" name="correo" required placeholder="Email"><br>
+                    <input class="login" type="correo" name="correo" required placeholder="Correo">
 
                     <label>Contraseña:</label>
-                    <input class="login" type="password" name="contraseña" required placeholder="Password"><br>
-                        
+                    <input class="login" type="password" name="contraseña" required placeholder="Contraseña">
+
                     <input  class="btn btn-info" role="button" type="submit" value="Aceptar">                                               
                 </form>
             </table>

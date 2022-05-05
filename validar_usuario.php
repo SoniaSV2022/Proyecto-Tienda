@@ -17,11 +17,9 @@ session_start();
             echo '<script>alert("Bienvenido.")</script>';
 			//echo "<script>location.href='app/menu.php'</script>";
 			echo "<script>location.href='app/lista_productos.php'</script>";
-		
 
 	   }
 	}
-
 
 	$sql=mysqli_query($conn,"SELECT * FROM credenciales WHERE correo='$usuario'");
 	if($f=mysqli_fetch_assoc($sql)){
@@ -40,7 +38,7 @@ session_start();
 		
 			echo "<script>location.href='index.php'</script>";
 		   }
-	     }else{
+	    }else{
 		
 		echo '<script>alert("El usuario no existe.")</script>';
 		
